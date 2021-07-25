@@ -7,8 +7,8 @@ export default {
   component: Navbar,
 };
 
-export const MyComponentNameStory = (props) => <Navbar {...props} />;
+export const NavbarWithProps = (props) => <Navbar {...props} />;
 
-MyComponentNameStory.args = {
-  name: "Navbar",
+NavbarWithProps.args = {
+  name: "LEE FARNELL",
 };

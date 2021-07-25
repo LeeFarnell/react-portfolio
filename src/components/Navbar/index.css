@@ -1,0 +1,25 @@
+:root {
+  --RoseQuartz: #f6c8cc;
+  --Ivory: #ebf5f7;
+  --Honeysuckle: #c15b78;
+  --Teal: #5bb0ba;
+}
+
+.navbar {
+  display: flex;
+  margin: 0px;
+  background-color: var(--RoseQuartz);
+  width: 100vw;
+  padding: 0vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: var(--Ivory);
+  font-family: "Wire One", sans-serif;
+  text-shadow: var(--Honeysuckle) 1px 1px 1px;
+  font-weight: bolder;
+  font-size: 3vw;
+  padding: 1vw;
+}
