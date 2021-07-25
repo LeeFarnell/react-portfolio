@@ -1,11 +1,11 @@
 import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">My React App</header>
+    <div>
+      <h1>My App Goes Here</h1>
     </div>
   );
-}
+};
 
 export default App;
