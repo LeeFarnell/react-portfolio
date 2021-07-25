@@ -1,0 +1,25 @@
+:root {
+  --RoseQuartz: #f6c8cc;
+  --Ivory: #ebf5f7;
+  --Honeysuckle: #c15b78;
+  --Teal: #5bb0ba;
+}
+
+.btn {
+  background-color: var(--Ivory);
+  font-family: "Wire One", sans-serif;
+  font-weight: bold;
+  font-size: medium;
+  color: var(--Honeysuckle);
+  box-shadow: var(--Teal) 1px 1px 1px;
+  border: 0px;
+  border-radius: 100px;
+  padding: 1vw;
+  width: auto;
+}
+
+.btn:hover {
+  background-color: var(--Teal);
+  color: var(--Ivory);
+  box-shadow: var(--Honeysuckle) 1px 1px 1px;
+}
