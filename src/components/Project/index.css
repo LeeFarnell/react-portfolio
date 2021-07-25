@@ -5,14 +5,49 @@
   --Teal: #5bb0ba;
 }
 
-.project {
+.project-container {
+  width: 95vw;
   background-color: var(--RoseQuartz);
+  padding: 0px;
+  border-radius: 10px;
+}
+
+.project-header {
+  background-color: var(--Honeysuckle);
   font-family: "Wire One", sans-serif;
   font-weight: bold;
+  font-size: medium;
+  color: var(--Ivory);
+  border: 0px;
+  padding: 1vw;
+}
+
+.project-body {
+  border: 1px solid var(--Honeysuckle);
+  font-family: "Wire One", sans-serif;
+  font-weight: normal;
   font-size: medium;
   color: var(--Honeysuckle);
   border: 0px;
   padding: 1vw;
-  width: 100vw;
-  margin: 0.5vw;
+  display: inline-flex;
+}
+
+.project-image {
+  filter: grayscale(1);
+  width: 50vw;
+  border: 5px solid var(--Teal);
+  border-radius: 10px;
+}
+
+.project-image:hover {
+  width: 50vw;
+  border: 5px solid var(--Teal);
+  border-radius: 10px;
+  filter: grayscale(0);
+}
+
+.project-text {
+  padding: 1vw;
+  margin: 0px;
 }

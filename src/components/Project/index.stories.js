@@ -10,5 +10,5 @@ export default {
 export const ProjectWithProps = (props) => <Project {...props} />;
 
 ProjectWithProps.args = {
-  name: "Project",
+  name: "Project Title",
 };
