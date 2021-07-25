@@ -1,0 +1,18 @@
+:root {
+  --RoseQuartz: #f6c8cc;
+  --Ivory: #ebf5f7;
+  --Honeysuckle: #c15b78;
+  --Teal: #5bb0ba;
+}
+
+.footer {
+  background-color: var(--RoseQuartz);
+  font-family: "Wire One", sans-serif;
+  font-weight: bold;
+  font-size: medium;
+  color: var(--Honeysuckle);
+  border: 0px;
+  padding: 1vw;
+  width: 100vw;
+  margin: 0.5vw;
+}
