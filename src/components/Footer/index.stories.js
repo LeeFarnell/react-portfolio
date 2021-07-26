@@ -10,5 +10,5 @@ export default {
 export const FooterWithProps = (props) => <Footer {...props} />;
 
 FooterWithProps.args = {
-  name: "Footer",
+  name: "Find Me Online: ",
 };
