@@ -1,0 +1,24 @@
+:root {
+  --RoseQuartz: #f6c8cc;
+  --Ivory: #ebf5f7;
+  --Honeysuckle: #c15b78;
+  --Teal: #5bb0ba;
+}
+
+.about-me {
+  background-color: var(--Ivory);
+  font-family: "Raleway", sans-serif;
+  font-size: medium;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-me-image {
+  width: 400px;
+  padding: 0;
+}
+
+p {
+  padding: 5px;
+  margin: 0px;
+}

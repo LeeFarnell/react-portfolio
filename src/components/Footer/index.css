@@ -9,14 +9,14 @@
   background-color: var(--RoseQuartz);
   font-family: "Wire One", sans-serif;
   font-weight: bold;
-  font-size: xx-large;
+  font-size: 2vw;
   color: var(--Honeysuckle);
   border: 0px;
-  padding: 1vw;
   width: 100vw;
   display: inline-flex;
   align-items: center;
   justify-content: stretch;
+  position: fixed;
 }
 
 .footer-images {
