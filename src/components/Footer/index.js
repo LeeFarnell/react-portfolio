@@ -6,7 +6,7 @@ const Footer = (props) => {
   return (
     <footer className="footer">
       {props.name}
-      <div>
+      <div className="footer-images">
         <img
           src="https://image.flaticon.com/icons/png/512/174/174857.png"
           alt="LinkedIn"
