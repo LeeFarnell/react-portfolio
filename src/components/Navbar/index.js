@@ -14,7 +14,9 @@ const Navbar = (props) => {
         <a href="/portfolio">
           <Button name="Portfolio" />
         </a>
-        <Button name="Contact Me" />
+        <a href="/contact">
+          <Button name="Contact Me" />
+        </a>
         <Button name="Resume" />
       </div>
     </div>
