@@ -6,16 +6,20 @@ const AboutMePage = () => {
   return (
     <div className="about-me">
       <div>
-        <p>Hello, and welcome to my portfolio! </p>
+        <h1>Hello! 👋</h1>
         <p>
-          My name is Lee Farnell and I am currently a student with the
-          University of Birmingham’s Coding Boot Camp. Whilst I’m still in the
-          early stages of the Boot Camp, this portfolio will be an ongoing
-          evolution of my work and the things I have managed to accomplish
-          during my time as a student and beyond. I’ve always had an interest in
-          coding and how web pages are designed and developed to be able to do
-          the things they do.
+          Welcome to my Portfolio! My name is Lee Farnell and I am currently a
+          student with the University of Birmingham’s Coding Boot Camp.
         </p>
+        <p>
+          As the course draws to a close, I am looking to become a fullstack
+          developer.
+        </p>
+        <p>
+          Please have a look around and check out some of the projects I have
+          worked on and the experience I have gained.
+        </p>
+        <br />
         <SimpleAccordion />
       </div>
       <img

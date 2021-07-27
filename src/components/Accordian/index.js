@@ -5,6 +5,8 @@ import AccordionSummary from "@material-ui/core/AccordionSummary";
 import AccordionDetails from "@material-ui/core/AccordionDetails";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
+import Button from "../Button";
+
 import "./index.css";
 
 export default function SimpleAccordion() {
@@ -16,24 +18,22 @@ export default function SimpleAccordion() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <h4>Experience With:</h4>
+          <h4>Experience:</h4>
         </AccordionSummary>
         <AccordionDetails>
           <div>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Javascript</li>
-              <li>React</li>
-              <li>jQuery</li>
-              <li>Bootstrap</li>
-              <li>jQuery</li>
-              <li>MySQL</li>
-              <li>Git</li>
-              <li>Express</li>
-              <li>Sequelize</li>
-              <li>moment.js</li>
-            </ul>
+            <Button name="HTML" />
+            <Button name="CSS" />
+            <Button name="Javascript" />
+            <Button name="React" />
+            <Button name="jQuery" />
+            <Button name="Bootstrap" />
+            <Button name="MySQL" />
+            <Button name="MongoDB" />
+            <Button name="Git" />
+            <Button name="Express" />
+            <Button name="Sequelize" />
+            <Button name="Moment.JS" />
           </div>
         </AccordionDetails>
       </Accordion>

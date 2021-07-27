@@ -8,8 +8,12 @@ const Navbar = (props) => {
     <div className="navbar">
       <div className="title">{props.name}</div>
       <div>
-        <Button name="About Me" />
-        <Button name="Portfolio" />
+        <a href="/">
+          <Button name="About Me" />
+        </a>
+        <a href="/portfolio">
+          <Button name="Portfolio" />
+        </a>
         <Button name="Contact Me" />
         <Button name="Resume" />
       </div>

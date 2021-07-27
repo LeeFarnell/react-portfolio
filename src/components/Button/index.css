@@ -8,8 +8,8 @@
 .btn {
   background-color: var(--Ivory);
   font-family: "Wire One", sans-serif;
-  font-weight: bold;
-  font-size: medium;
+  font-weight: bolder;
+  font-size: x-large;
   color: var(--Honeysuckle);
   box-shadow: var(--Teal) 1px 1px 1px;
   border: 0px;

@@ -7,8 +7,8 @@
 
 .accordion {
   display: flex;
-  justify-content: center;
   width: auto;
+  margin: 1vw;
 }
 
 .MuiAccordionDetails-root {
