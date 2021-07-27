@@ -26,3 +26,9 @@ p {
   padding: 5px;
   margin: 0px;
 }
+
+@media screen and (max-width: 812px) {
+  .about-me {
+    background-color: red;
+  }
+}
