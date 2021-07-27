@@ -29,6 +29,11 @@ p {
 
 @media screen and (max-width: 812px) {
   .about-me {
-    background-color: red;
+    display: block;
+  }
+
+  .about-me-image {
+    width: 95vw;
+    height: auto;
   }
 }

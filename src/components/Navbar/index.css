@@ -20,6 +20,19 @@
   font-family: "Wire One", sans-serif;
   text-shadow: var(--Honeysuckle) 1px 1px 1px;
   font-weight: bolder;
-  font-size: 3vw;
+  font-size: 5vw;
   padding: 1vw;
+}
+
+@media screen and (max-width: 812px) {
+  .title {
+    font-size: 20vw;
+  }
+
+  .navbar {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 }
