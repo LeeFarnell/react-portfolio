@@ -4,3 +4,22 @@
   --Honeysuckle: #c15b78;
   --Teal: #5bb0ba;
 }
+
+.contact-form {
+  display: block;
+  width: 100vw;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  font-family: "Raleway", sans-serif;
+}
+
+.contact-field {
+  font-family: "Raleway", sans-serif;
+  width: 50vw;
+  resize: none;
+  padding: 1vw;
+  margin: 0.5vw;
+  border: 2px var(--Teal) solid;
+  border-radius: 5px;
+}

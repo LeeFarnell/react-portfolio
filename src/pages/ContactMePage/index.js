@@ -10,7 +10,10 @@ const ContactMePage = () => {
       </div>
 
       <div className="contact-images">
-        <p>Want to get in touch? Use one of the links below!</p>
+        <p>
+          Want to get in touch? Use one of the links below or fill in the
+          contact form!
+        </p>
         <a href="mailto:leefarnell@mac.com">
           <img
             title="Email Me!"
