@@ -17,7 +17,9 @@ const Navbar = (props) => {
         <a href="/contact">
           <Button name="Contact Me" />
         </a>
-        <Button name="Resume" />
+        <a href="https://drive.google.com/file/d/1CbYEpY4UwAvDuefGn6cRXP8PqmaxmAc4/view?usp=sharing">
+          <Button name="Resume" />
+        </a>
       </div>
     </div>
   );

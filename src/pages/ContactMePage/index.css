@@ -4,3 +4,25 @@
   --Honeysuckle: #c15b78;
   --Teal: #5bb0ba;
 }
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: var(--Ivory);
+}
+
+.contact {
+  font-size: medium;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 0.5vw;
+}
+
+.contact-images {
+  text-align: center;
+}
+
+.contact-images img {
+  width: 5vw;
+  margin: 2vw;
+}
