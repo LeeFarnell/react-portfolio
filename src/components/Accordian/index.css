@@ -1,0 +1,16 @@
+:root {
+  --RoseQuartz: #f6c8cc;
+  --Ivory: #ebf5f7;
+  --Honeysuckle: #c15b78;
+  --Teal: #5bb0ba;
+}
+
+.accordion {
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+
+.MuiAccordionDetails-root {
+  padding: 0px;
+}

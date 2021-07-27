@@ -5,6 +5,10 @@
   --Teal: #5bb0ba;
 }
 
+body {
+  background-color: var(--Ivory);
+}
+
 .about-me {
   background-color: var(--Ivory);
   font-family: "Raleway", sans-serif;
@@ -15,7 +19,9 @@
 
 .about-me-image {
   width: 400px;
+  height: 400px;
   padding: 0;
+  position: static;
 }
 
 p {

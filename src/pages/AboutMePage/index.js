@@ -1,5 +1,7 @@
 import "./index.css";
 
+import SimpleAccordion from "../../components/Accordian";
+
 const AboutMePage = () => {
   return (
     <div className="about-me">
@@ -14,12 +16,7 @@ const AboutMePage = () => {
           coding and how web pages are designed and developed to be able to do
           the things they do.
         </p>
-        <p>
-          {" "}
-          Thanks to the Bootcamp, I now have solid experience in the following
-          areas: HTML CSS Javascript jQuery Bootstrap jQuery MySQL Git Express
-          Sequelize moment.js
-        </p>
+        <SimpleAccordion />
       </div>
       <img
         src="https://leefarnell.github.io/MyPortfolio/assets/images/Me.png"
