@@ -32,3 +32,18 @@
   padding: 0px;
   margin: 1vw;
 }
+
+@media screen and (max-width: 812px) {
+  .footer {
+    font-size: 7vw;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+  }
+
+  .footer-image {
+    width: 6vw;
+    padding: 0px;
+    margin: 2vw;
+  }
+}
