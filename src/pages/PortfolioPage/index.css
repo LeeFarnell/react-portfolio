@@ -4,3 +4,10 @@
   --Honeysuckle: #c15b78;
   --Teal: #5bb0ba;
 }
+
+.projects {
+  margin: 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
