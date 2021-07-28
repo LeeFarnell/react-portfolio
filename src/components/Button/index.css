@@ -11,7 +11,7 @@
   font-weight: bolder;
   font-size: x-large;
   color: var(--Honeysuckle);
-  box-shadow: var(--Teal) 1px 1px 1px;
+  box-shadow: var(--Teal) 0px 2px 0px;
   border: 0px;
   border-radius: 100px;
   padding: 1vw;
@@ -22,5 +22,10 @@
 .btn:hover {
   background-color: var(--Teal);
   color: var(--Ivory);
-  box-shadow: var(--Honeysuckle) 1px 1px 1px;
+  box-shadow: var(--Honeysuckle) 0px 2px 0px;
+}
+
+.btn:active {
+  transform: translateY(2px);
+  box-shadow: 0px 0px 0px;
 }

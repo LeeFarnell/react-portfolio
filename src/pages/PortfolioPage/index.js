@@ -1,22 +1,26 @@
+import Project from "../../components/Project";
+import useFetch from "../../hooks/useFetch";
+
 import "./index.css";
 
-import fetchData from "../../utils/fetchData";
-import Project from "../../components/Project";
-
 const PortfolioPage = () => {
-  const getGithubData = async () => {
-    const data = await fetchData(
-      `https://api.github.com/users/leefarnell/repos`
-    );
-    console.log(data);
-  };
+  const { data, error, loading } = useFetch(
+    "https://api.github.com/users/leefarnell/repos"
+  );
 
-  getGithubData();
+  if (loading) {
+    return <div>Loading...</div>;
+  }
 
+  if (error) {
+    return <div>ERROR</div>;
+  }
+  console.log(data);
   return (
     <div className="projects">
-      <Project name="My Project" />
-      <Project name="My Project 2" />
+      {data.map((repo) => {
+        return <Project />;
+      })}
     </div>
   );
 };
