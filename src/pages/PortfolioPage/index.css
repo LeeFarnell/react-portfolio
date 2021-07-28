@@ -6,8 +6,13 @@
 }
 
 .projects {
+  display: inline;
+  max-width: 95vw;
+}
+
+.project-card {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 48vw;
   margin: 1vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }

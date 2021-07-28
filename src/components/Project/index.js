@@ -2,17 +2,20 @@ import React from "react";
 
 import "./index.css";
 
-const Project = () => {
+const Project = (repo) => {
+  console.log(repo.repo);
   return (
     <div className="project-container">
-      <div className="project-header"></div>
+      <div className="project-header">{repo.repo.name}</div>
       <div className="project-body">
-        <img
-          src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
-          alt="code screen"
-          className="project-image"
-        />
-        <p className="project-text">This is only a test.</p>
+        <a href={repo.repo.svn_url} target="_blank" rel="noreferrer">
+          <img
+            src={`https://raw.githubusercontent.com/LeeFarnell/coding-bootcamp/master/app-screenshots/${repo.repo.name}.png`}
+            alt="code screen"
+            className="project-image"
+          />
+        </a>
+        <p className="project-text">{repo.repo.description}</p>
       </div>
     </div>
   );

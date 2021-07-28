@@ -19,7 +19,11 @@ const PortfolioPage = () => {
   return (
     <div className="projects">
       {data.map((repo) => {
-        return <Project />;
+        return (
+          <div className="project-card">
+            <Project repo={repo} />
+          </div>
+        );
       })}
     </div>
   );
