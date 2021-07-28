@@ -15,7 +15,12 @@ const Project = (repo) => {
             className="project-image"
           />
         </a>
-        <p className="project-text">{repo.repo.description}</p>
+        <p className="project-text">
+          {repo.repo.description} <br />
+          <a href={repo.repo.homepage} target="_blank" rel="noreferrer">
+            Deployed Application
+          </a>
+        </p>
       </div>
     </div>
   );
