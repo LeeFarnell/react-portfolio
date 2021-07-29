@@ -1,0 +1,10 @@
+:root {
+  --RoseQuartz: #f6c8cc;
+  --Ivory: #ebf5f7;
+  --Honeysuckle: #c15b78;
+  --Teal: #5bb0ba;
+}
+
+.loading {
+  color: var(--Teal);
+}

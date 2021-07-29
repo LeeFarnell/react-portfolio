@@ -16,3 +16,10 @@
   width: 48vw;
   margin: 1vw;
 }
+
+.on-load {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 3vw;
+}

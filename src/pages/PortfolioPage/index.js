@@ -1,3 +1,4 @@
+import Loading from "../../components/Loading";
 import Project from "../../components/Project";
 import useFetch from "../../hooks/useFetch";
 
@@ -9,7 +10,11 @@ const PortfolioPage = () => {
   );
 
   if (loading) {
-    return <div>Loading...</div>;
+    return (
+      <div className="on-load">
+        <Loading />
+      </div>
+    );
   }
 
   if (error) {

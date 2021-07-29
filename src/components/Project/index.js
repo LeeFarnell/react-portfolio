@@ -31,7 +31,7 @@ const Project = (repo) => {
           />
         </a>
         <p className="project-text">
-          {repo.repo.description} <br />
+          {repo.repo.description} <p />
           {deployedApp()}
         </p>
       </div>
