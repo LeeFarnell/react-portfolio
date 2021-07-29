@@ -3,7 +3,22 @@ import React from "react";
 import "./index.css";
 
 const Project = (repo) => {
-  console.log(repo.repo);
+  // Create link to deployed app
+  const appLink = repo.repo.homepage;
+
+  const deployedApp = () => {
+    if (!appLink) {
+      return "";
+    } else {
+      return (
+        <a href={appLink} target="_blank" rel="noreferrer">
+          View Deployed Application
+        </a>
+      );
+    }
+  };
+
+  // ---
   return (
     <div className="project-container">
       <div className="project-header">{repo.repo.name}</div>
@@ -17,9 +32,7 @@ const Project = (repo) => {
         </a>
         <p className="project-text">
           {repo.repo.description} <br />
-          <a href={repo.repo.homepage} target="_blank" rel="noreferrer">
-            Deployed Application
-          </a>
+          {deployedApp()}
         </p>
       </div>
     </div>
