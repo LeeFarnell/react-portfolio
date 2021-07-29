@@ -51,3 +51,23 @@
   padding: 1vw;
   margin: 0px;
 }
+
+.dep-link {
+  margin-top: 1vw;
+}
+
+@media screen and (max-width: 812px) {
+  .project-container {
+    width: 95vw;
+  }
+
+  .project-body {
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .project-image {
+    width: 80vw;
+  }
+}

@@ -20,7 +20,7 @@ const Project = (repo) => {
 
   // ---
   return (
-    <div className="project-container">
+    <div className="project-container" key={repo.repo.name}>
       <div className="project-header">{repo.repo.name}</div>
       <div className="project-body">
         <a href={repo.repo.svn_url} target="_blank" rel="noreferrer">
@@ -30,10 +30,10 @@ const Project = (repo) => {
             className="project-image"
           />
         </a>
-        <p className="project-text">
-          {repo.repo.description} <p />
-          {deployedApp()}
-        </p>
+        <div className="project-text">
+          <div>{repo.repo.description}</div>
+          <div className="dep-link">{deployedApp()}</div>
+        </div>
       </div>
     </div>
   );

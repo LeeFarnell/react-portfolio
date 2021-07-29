@@ -34,5 +34,11 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 1vw;
+  }
+
+  .nav-btn {
+    margin-bottom: 1vw;
+    justify-content: space-evenly;
   }
 }

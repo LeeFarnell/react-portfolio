@@ -23,3 +23,13 @@
   align-content: center;
   margin: 3vw;
 }
+
+@media screen and (max-width: 812px) {
+  .project-card {
+    display: flex;
+    width: 95vw;
+    margin: 2vw;
+    justify-content: center;
+    align-content: center;
+  }
+}

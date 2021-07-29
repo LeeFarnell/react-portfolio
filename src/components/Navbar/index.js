@@ -7,7 +7,7 @@ const Navbar = (props) => {
   return (
     <div className="navbar">
       <div className="title">{props.name}</div>
-      <div>
+      <div className="nav-btn">
         <a href="/">
           <Button name="About Me" />
         </a>
