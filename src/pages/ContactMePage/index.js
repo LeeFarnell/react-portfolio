@@ -58,7 +58,7 @@ const ContactMePage = () => {
           />
         </a>
       </div>
-
+      <hr className="hr-line" />
       <ContactForm />
     </div>
   );

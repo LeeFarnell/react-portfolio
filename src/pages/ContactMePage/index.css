@@ -26,3 +26,10 @@ body {
   width: 5vw;
   margin: 2vw;
 }
+
+.hr-line {
+  color: var(--Teal);
+  border: 2px solid var(--Teal);
+  border-radius: 5px;
+  width: 75vw;
+}
