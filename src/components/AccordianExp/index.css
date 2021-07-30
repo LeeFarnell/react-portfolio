@@ -14,3 +14,9 @@
 .MuiAccordionDetails-root {
   padding: 0px;
 }
+
+@media screen and (max-width: 812px) {
+  .accordion {
+    width: auto;
+  }
+}
