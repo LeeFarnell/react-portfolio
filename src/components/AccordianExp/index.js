@@ -9,7 +9,7 @@ import Button from "../Button";
 
 import "./index.css";
 
-export default function SimpleAccordion() {
+export default function AccordionExperience() {
   return (
     <div className="accordion">
       <Accordion>

@@ -1,6 +1,7 @@
 import "./index.css";
 
-import SimpleAccordion from "../../components/Accordian";
+import AccordionExperience from "../../components/AccordianExp";
+import AccordionAbout from "../../components/AccordianAbout";
 
 const AboutMePage = () => {
   return (
@@ -20,7 +21,9 @@ const AboutMePage = () => {
           worked on and the experience I have gained.
         </p>
         <br />
-        <SimpleAccordion />
+        <AccordionExperience />
+        <br />
+        <AccordionAbout />
       </div>
       <img
         src="https://leefarnell.github.io/MyPortfolio/assets/images/Me.png"
