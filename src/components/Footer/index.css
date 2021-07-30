@@ -30,7 +30,11 @@
 .footer-image {
   width: 2vw;
   padding: 0px;
-  margin: 1vw;
+  margin: 0.5vw;
+}
+
+a {
+  margin: 0;
 }
 
 @media screen and (max-width: 812px) {
