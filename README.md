@@ -57,6 +57,8 @@ https://www.mit.edu/~amini/LICENSE.md
 
 ## Deployed Link
 
+https://leefarnell.github.io/react-portfolio/
+
 ## Tests
 
 There are no tests required for this app.
