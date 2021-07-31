@@ -8,7 +8,7 @@ import "./App.css";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/">
       <Header />
       <Routes />
       <Footer name="Find Me Online" />
