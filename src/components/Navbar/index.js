@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React from "react";
 import Button from "../Button";
 
@@ -8,15 +9,15 @@ const Navbar = (props) => {
     <div className="navbar">
       <div className="title">{props.name}</div>
       <div className="nav-btn">
-        <a href="/">
+        <Link to="/">
           <Button name="About Me" />
-        </a>
-        <a href="/portfolio">
+        </Link>
+        <Link to="/portfolio">
           <Button name="Portfolio" />
-        </a>
-        <a href="/contact">
+        </Link>
+        <Link to="/contact">
           <Button name="Contact Me" />
-        </a>
+        </Link>
         <a
           href="https://drive.google.com/file/d/1CbYEpY4UwAvDuefGn6cRXP8PqmaxmAc4/view?usp=sharing"
           target="_blank"
