@@ -16,8 +16,8 @@
 }
 
 .about-me-image {
-  width: 400px;
-  height: 400px;
+  width: 25vw;
+  height: 25vw;
   padding: 0;
   position: static;
 }
